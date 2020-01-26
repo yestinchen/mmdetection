@@ -2,6 +2,8 @@ from mmdet.apis import init_detector, inference_detector, show_result_pyplot
 import mmcv
 import os
 import numpy as np
+import reader
+import time
 
 CONFIG_FILE = '../configs/faster_rcnn_r50_fpn_1x.py'
 CHECKPOINT_FILE = '../models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth'
@@ -13,7 +15,7 @@ def identify_videoseq(folder, model, score_thr=0.3):
 
 
 def identify_folder(folder, model, ofolder, score_thr):
-  for fname in os.listdir(folder):
+  for fname in reader.list_frame_images_inorder(folder):
     fpath = os.path.join(folder, fname)
     if (not os.path.isdir(ofolder)):
       os.makedirs(ofolder)
@@ -54,4 +56,9 @@ def identify_img(img, model, ofolder, score_thr):
 
 if __name__=="__main__":
   model = init_detector(CONFIG_FILE, CHECKPOINT_FILE, device='cuda:0')
-  identify_videoseq("../testroot/t1/",model, 0.3)
+  # identify_videoseq("../testroot/t1/",model, 0.3)
+  
+  start = time.time()
+  end = time.time()
+  identify_videoseq("../../beindexing/python/images/visualroad1", model, 0.3) #4.76837158203125e-07s
+  print("total time: {}s".format(end - start))
