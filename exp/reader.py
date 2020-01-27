@@ -28,7 +28,7 @@ class DetectedResult(object):
         r.class_name = arr[1]
         r.class_id = int(arr[2])
         roisArr = arr[3].strip()[1:-1].split(', ')
-        r.roi = [int(i) for i in roisArr]
+        r.roi = [float(i) for i in roisArr]
         r.score = float(arr[4])
         return r
 

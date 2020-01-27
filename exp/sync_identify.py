@@ -39,17 +39,15 @@ def identify_img(img, model, ofolder, score_thr):
   with open(outputFile+".txt", 'w') as the_file:
     for bbox, label in zip(bboxes, labels):
       # print(bbox)
-      bbox_int = bbox.astype(np.int32)
-      left_top = (bbox_int[0], bbox_int[1])
-      right_bottom = (bbox_int[2], bbox_int[3])
+      left_top = (bbox[0], bbox[1])
+      right_bottom = (bbox[2], bbox[3])
       # print("{}, {}".format(left_top, right_bottom))
       # print(model.CLASSES[label])
       # print("prob:{:.02f}".format(bbox[-1]))
       class_id = label
       class_name = model.CLASSES[label]
-      roi = bbox_int
       score = bbox[-1]
-      the_file.write("{}; {}; {}; {}\n".format(class_name, class_id, roi, score))
+      the_file.write("{}; {}; [{}, {}, {}, {}]; {}\n".format(class_name, class_id, bbox[0], bbox[1], bbox[2], bbox[3], score))
 
   
 
