@@ -10,8 +10,8 @@ CHECKPOINT_FILE = '../models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth'
 
 OUTPUT_FOLDER="../expout/"
 
-def identify_videoseq(folder, model, score_thr=0.3):
-  identify_folder(folder, model, os.path.join(OUTPUT_FOLDER, os.path.basename(folder)), score_thr)
+def identify_videoseq(folder, model, name, score_thr=0.3):
+  identify_folder(folder, model, os.path.join(OUTPUT_FOLDER, name), score_thr)
 
 
 def identify_folder(folder, model, ofolder, score_thr):
@@ -57,6 +57,12 @@ if __name__=="__main__":
   # identify_videoseq("../testroot/t1/",model, 0.3)
   
   start = time.time()
+  # identify_videoseq("../../beindexing/python/images/visualroad1",, "visualroad1" model, 0.3) #263.5951690673828s
+  identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad2/img1/",  model,"visualroad2", 0.3) #253.76282954216003s
+  identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad3/img1/",  model, "visualroad3",0.3) #250.58333253860474s
+  identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad4/img1/",  model, "visualroad4",0.3) #249.09775495529175s
+  identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-03/img1/",  model,"MOT16-03", 0.3) #225.03858494758606s
+  identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-04/img1/",  model,"MOT16-04", 0.3) #157.41504430770874s
+  identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-13/img1/",  model,"MOT16-13", 0.3) #110.76021575927734s
   end = time.time()
-  identify_videoseq("../../beindexing/python/images/visualroad1", model, 0.3) #4.76837158203125e-07s
   print("total time: {}s".format(end - start))
