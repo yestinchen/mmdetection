@@ -58,11 +58,13 @@ if __name__=="__main__":
   
   start = time.time()
   # identify_videoseq("../../beindexing/python/images/visualroad1",, "visualroad1" model, 0.3) #263.5951690673828s
-  identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad2/img1/",  model,"visualroad2", 0.3) #253.76282954216003s
-  identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad3/img1/",  model, "visualroad3",0.3) #250.58333253860474s
-  identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad4/img1/",  model, "visualroad4",0.3) #249.09775495529175s
-  identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-03/img1/",  model,"MOT16-03", 0.3) #225.03858494758606s
-  identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-04/img1/",  model,"MOT16-04", 0.3) #157.41504430770874s
-  identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-13/img1/",  model,"MOT16-13", 0.3) #110.76021575927734s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad2/img1/",  model,"visualroad2", 0.3) #253.76282954216003s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad3/img1/",  model, "visualroad3",0.3) #250.58333253860474s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad4/img1/",  model, "visualroad4",0.3) #249.09775495529175s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-03/img1/",  model,"MOT16-03", 0.3) #225.03858494758606s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-04/img1/",  model,"MOT16-04", 0.3) #157.41504430770874s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-13/img1/",  model,"MOT16-13", 0.3) #110.76021575927734s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/sherbrooke/img1/",  model,"sherbrooke", 0.3) #571.6836140155792s
+  identify_videoseq("/media/ytchen/hdd/working/beindex/stmarc/img1/",  model,"stmarc", 0.3) #328.5447025299072s
   end = time.time()
   print("total time: {}s".format(end - start))

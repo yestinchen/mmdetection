@@ -23,9 +23,11 @@ def generate_det(folder, ofolder):
 
 if __name__ == "__main__":
   # generate_det("../expout/visualroad1", "/media/ytchen/hdd/working/beindex/visualroad1/det")
-  generate_det("../expout/visualroad2", "/media/ytchen/hdd/working/beindex/visualroad2/det")
-  generate_det("../expout/visualroad3", "/media/ytchen/hdd/working/beindex/visualroad3/det")
-  generate_det("../expout/visualroad4", "/media/ytchen/hdd/working/beindex/visualroad4/det")
-  generate_det("../expout/MOT16-13", "/media/ytchen/hdd/working/beindex/MOT16-13/det")
-  generate_det("../expout/MOT16-03", "/media/ytchen/hdd/working/beindex/MOT16-03/det")
-  generate_det("../expout/MOT16-04", "/media/ytchen/hdd/working/beindex/MOT16-04/det")
+  # generate_det("../expout/visualroad2", "/media/ytchen/hdd/working/beindex/visualroad2/det")
+  # generate_det("../expout/visualroad3", "/media/ytchen/hdd/working/beindex/visualroad3/det")
+  # generate_det("../expout/visualroad4", "/media/ytchen/hdd/working/beindex/visualroad4/det")
+  # generate_det("../expout/MOT16-13", "/media/ytchen/hdd/working/beindex/MOT16-13/det")
+  # generate_det("../expout/MOT16-03", "/media/ytchen/hdd/working/beindex/MOT16-03/det")
+  # generate_det("../expout/MOT16-04", "/media/ytchen/hdd/working/beindex/MOT16-04/det")
+  generate_det("../expout/stmarc", "/media/ytchen/hdd/working/beindex/stmarc/det")
+  generate_det("../expout/sherbrooke", "/media/ytchen/hdd/working/beindex/sherbrooke/det")
