@@ -65,6 +65,16 @@ if __name__=="__main__":
   # identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-04/img1/",  model,"MOT16-04", 0.3) #157.41504430770874s
   # identify_videoseq("/media/ytchen/hdd/working/beindex/MOT16-13/img1/",  model,"MOT16-13", 0.3) #110.76021575927734s
   # identify_videoseq("/media/ytchen/hdd/working/beindex/sherbrooke/img1/",  model,"sherbrooke", 0.3) #571.6836140155792s
-  identify_videoseq("/media/ytchen/hdd/working/beindex/stmarc/img1/",  model,"stmarc", 0.3) #328.5447025299072s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/stmarc/img1/",  model,"stmarc", 0.3) #328.5447025299072s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_20034/img1/",  model,"MVI_20034", 0.3) #123.00305151939392s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_40131/img1/",  model,"MVI_40131", 0.3) #253.31823444366455s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_40171/img1/",  model,"MVI_40171", 0.3) #176.5968005657196s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_40172/img1/",  model,"MVI_40172", 0.3) #404.6470127105713s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_40181/img1/",  model,"MVI_40181", 0.3) #261.79537773132324s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_40732/img1/",  model,"MVI_40732", 0.3) #329.40419340133667s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_40751/img1/",  model,"MVI_40751", 0.3) #176.08973908424377s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_40871/img1/",  model,"MVI_40871", 0.3) #267.8949992656708s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_63544/img1/",  model,"MVI_63544", 0.3) #178.1296842098236s
+  identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_63553/img1/",  model,"MVI_63553", 0.3) # 218.65589427947998s
   end = time.time()
   print("total time: {}s".format(end - start))

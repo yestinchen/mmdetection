@@ -82,19 +82,39 @@ def generate_seq_all(p1, p2, p3):
 if __name__ == "__main__":
     # generate_seq('../expout/visualroad1', '../../deep_sort/results/visualroad1.txt', 
       # '../seqout/visualroad1', True)
-    generate_seq_all('../expout/visualroad2', '../../deep_sort/results/visualroad2.txt', 
-    '../seqout/visualroad2')
-    generate_seq_all('../expout/visualroad3', '../../deep_sort/results/visualroad3.txt', 
-    '../seqout/visualroad3')
-    generate_seq_all('../expout/visualroad4', '../../deep_sort/results/visualroad4.txt', 
-    '../seqout/visualroad4')
-    generate_seq_all('../expout/MOT16-03', '../../deep_sort/results/MOT16-03.txt', 
-    '../seqout/MOT16-03')
-    generate_seq_all('../expout/MOT16-04', '../../deep_sort/results/MOT16-04.txt', 
-    '../seqout/MOT16-04')
-    generate_seq_all('../expout/MOT16-13', '../../deep_sort/results/MOT16-13.txt', 
-    '../seqout/MOT16-13')
-    generate_seq_all('../expout/stmarc', '../../deep_sort/results/stmarc.txt', 
-    '../seqout/stmarc')
-    generate_seq_all('../expout/sherbrooke', '../../deep_sort/results/sherbrooke.txt', 
-    '../seqout/sherbrooke')
+    # generate_seq_all('../expout/visualroad2', '../../deep_sort/results/visualroad2.txt', 
+    # '../seqout/visualroad2')
+    # generate_seq_all('../expout/visualroad3', '../../deep_sort/results/visualroad3.txt', 
+    # '../seqout/visualroad3')
+    # generate_seq_all('../expout/visualroad4', '../../deep_sort/results/visualroad4.txt', 
+    # '../seqout/visualroad4')
+    # generate_seq_all('../expout/MOT16-03', '../../deep_sort/results/MOT16-03.txt', 
+    # '../seqout/MOT16-03')
+    # generate_seq_all('../expout/MOT16-04', '../../deep_sort/results/MOT16-04.txt', 
+    # '../seqout/MOT16-04')
+    # generate_seq_all('../expout/MOT16-13', '../../deep_sort/results/MOT16-13.txt', 
+    # '../seqout/MOT16-13')
+    # generate_seq_all('../expout/stmarc', '../../deep_sort/results/stmarc.txt', 
+    # '../seqout/stmarc')
+    # generate_seq_all('../expout/sherbrooke', '../../deep_sort/results/sherbrooke.txt', 
+    # '../seqout/sherbrooke')
+    generate_seq_all('../expout/MVI_20034', '../../deep_sort/results/MVI_20034.txt', 
+    '../seqout/MVI_20034')
+    generate_seq_all('../expout/MVI_40131', '../../deep_sort/results/MVI_40131.txt', 
+    '../seqout/MVI_40131')
+    generate_seq_all('../expout/MVI_40171', '../../deep_sort/results/MVI_40171.txt', 
+    '../seqout/MVI_40171')
+    generate_seq_all('../expout/MVI_40172', '../../deep_sort/results/MVI_40172.txt', 
+    '../seqout/MVI_40172')
+    generate_seq_all('../expout/MVI_40181', '../../deep_sort/results/MVI_40181.txt', 
+    '../seqout/MVI_40181')
+    generate_seq_all('../expout/MVI_40732', '../../deep_sort/results/MVI_40732.txt', 
+    '../seqout/MVI_40732')
+    generate_seq_all('../expout/MVI_40751', '../../deep_sort/results/MVI_40751.txt', 
+    '../seqout/MVI_40751')
+    generate_seq_all('../expout/MVI_40871', '../../deep_sort/results/MVI_40871.txt', 
+    '../seqout/MVI_40871')
+    generate_seq_all('../expout/MVI_63544', '../../deep_sort/results/MVI_63544.txt', 
+    '../seqout/MVI_63544')
+    generate_seq_all('../expout/MVI_63553', '../../deep_sort/results/MVI_63553.txt', 
+    '../seqout/MVI_63553')
