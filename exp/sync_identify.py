@@ -75,6 +75,11 @@ if __name__=="__main__":
   # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_40751/img1/",  model,"MVI_40751", 0.3) #176.08973908424377s
   # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_40871/img1/",  model,"MVI_40871", 0.3) #267.8949992656708s
   # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_63544/img1/",  model,"MVI_63544", 0.3) #178.1296842098236s
-  identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_63553/img1/",  model,"MVI_63553", 0.3) # 218.65589427947998s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/MVI_63553/img1/",  model,"MVI_63553", 0.3) # 218.65589427947998s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad1xt2/img1/",  model,"visualroad1xt2", 0.3) # 137.17280411720276s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad2xt2/img1/",  model,"visualroad2xt2", 0.3) #  136.32257533073425s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad3xt2/img1/",  model,"visualroad3xt2", 0.3) # 131.2922236919403s
+  # identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad4xt2/img1/",  model,"visualroad4xt2", 0.3) # 137.0745804309845s
+  identify_videoseq("/media/ytchen/hdd/working/beindex/visualroad5xt2/img1/",  model,"visualroad5xt2", 0.3) # 139.09989166259766s
   end = time.time()
   print("total time: {}s".format(end - start))
